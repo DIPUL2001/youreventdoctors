@@ -572,7 +572,8 @@ body {
     margin-top: 30px;
     padding: 0;
   }
-  #menu-tile, #specials-tile,#map-tile ,#virtual-tile {
+ #menu-tile, #specials-tile,#map-tile ,#virtual-tile,#pre-tile, #anniversary-tile ,#dwed-tile ,#photo-tile ,#fdeco-tile,#deco-tile,#corporate-tile ,#con-tile ,#sc-tile ,#fash-tile,#exhi-tile,#sport-tile
+  ,#holi-tile ,#diw-tile ,#christ-tile ,#navr-tile ,#new-tile,#indr-tile ,#insta-tile, #face-tile,#linked-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -589,7 +590,8 @@ body {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #menu-tile, #specials-tile,#map-tile ,#virtual-tile,#pre-tile, #anniversary-tile ,#dwed-tile ,#photo-tile ,#fdeco-tile,#deco-tile,#corporate-tile ,#con-tile ,#sc-tile ,#fash-tile,#exhi-tile,#sport-tile
+  ,#holi-tile ,#diw-tile ,#christ-tile ,#navr-tile ,#new-tile,#indr-tile ,#insta-tile, #face-tile,#linked-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
