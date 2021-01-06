@@ -1,0 +1,706 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #D2691E;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:white;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* event company name */
+  font-family: 'Lora', serif;
+  color: #D2691E;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color:#D2691E;
+
+  text-align: center;
+}
+#nav-list a:hover {
+  background:blue;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#virtual-tile,#map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover, #virtual-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+} 
+#menu-tile {
+  background: url('../images/wedding.jpg') no-repeat;/*wedding*/
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/event.jpg') no-repeat;/*event*/
+  background-position: center;
+}
+#virtual-tile {
+  background: url('../images/virtual (2).jpg') no-repeat;
+  background-position: center;
+}
+#map-tile {
+  background: url('../images/festive.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span, #virtual-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.container .wed-img {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#pre-tile, #anniversary-tile ,#dwed-tile ,#photo-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#fdeco-tile,#deco-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#pre-tile:hover, #anniversary-tile:hover, #dwed-tile:hover, #photo-tile:hover ,#fdeco-tile:hover ,#deco-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+} 
+#pre-tile {
+  background: url('../images/menu/pwed.jpg') no-repeat;/*wedding*/
+  background-position: center;
+}
+#anniversary-tile {
+  background: url('../images/menu/mp.jpg') no-repeat;/*event*/
+  background-position: center;
+}
+#dwed-tile {
+  background: url('../images/menu/dwed.jpg') no-repeat;
+  background-position: center;
+}
+#photo-tile {
+  background: url('../images/menu/phot.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#deco-tile {
+  background: url('../images/menu/deco.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#fdeco-tile {
+  background: url('../images/menu/fdeco.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#pre-tile span, #anniversary-tile span, #dwed-tile span, #photo-tile span ,#deco-tile span ,#fdeco-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+ 
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#pre-tile, #anniversary-tile ,#dwed-tile ,#photo-tile ,#fdeco-tile,#deco-tile{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.container .event-img {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+#Corporate-tile ,#fash-tile ,#sc-tile ,#con-tile ,#exhi-tile,#sport-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#Corporate-tile:hover , #fash-tile:hover, #sc-tile:hover, #con-tile:hover ,#exhi-tile:hover ,#sport-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+} 
+#Corporate-tile {
+  background: url('../images/events/CORP.jpg') no-repeat;/*wedding*/
+  background-position: center;
+}
+#con-tile {
+  background: url('../images/events/conf.jpg') no-repeat;/*event*/
+  background-position: center;
+}
+#sc-tile {
+  background: url('../images/events/SC.jpg') no-repeat;
+  background-position: center;
+}
+#fash-tile {
+  background: url('../images/events/FS.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#exhi-tile {
+  background: url('../images/events/BP.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#sport-tile {
+  background: url('../images/events/EXHI.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#Corporate-tile span, #con-tile span, #sc-tile span, #fash-tile span ,#exhi-tile span,#sport-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#corporate-tile ,#con-tile ,#sc-tile ,#fash-tile,#exhi-tile,#sport-tile{
+    width: 360px;
+    margin: 0 auto 15px;}
+
+
+/* END SINGLE CATEGORY PAGE */
+/* festival page */
+.container .festi-img{
+    margin-top: 30px;
+    padding: 0;
+  }
+  .container .festi-img {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+#holi-tile ,#diw-tile ,#christ-tile ,#navr-tile ,#new-tile,#indr-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#holi-tile:hover , #christ-tile:hover, #navr-tile:hover, #new-tile:hover ,#diw-tile:hover ,#new-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+} 
+#holi-tile {
+  background: url('../images/festival/holi.jpg') no-repeat;/*wedding*/
+  background-position: center;
+}
+#diw-tile {
+  background: url('../images/festival/diw.jpg') no-repeat;/*event*/
+  background-position: center;
+}
+#christ-tile {
+  background: url('../images/festival/christm.jpg') no-repeat;
+  background-position: center;
+}
+#navr-tile {
+  background: url('../images/festival/navr.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#indr-tile {
+  background: url('../images/festival/indr.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#new-tile {
+  background: url('../images/festival/newy.jpg') no-repeat;/*festive*/
+  background-position: center;
+}
+#holi-tile span, #diw-tile span, #christ-tile span, #navr-tile span ,#indr-tile span,#new-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#holi-tile ,#diw-tile ,#christ-tile ,#navr-tile ,#new-tile,#indr-tile{
+    width: 360px;
+    margin: 0 auto 15px;}
+/*festival page end*/
+/*contact us*/
+#insta-tile, #face-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#linked-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#insta-tile:hover, #face-tile:hover,  #linked-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+} 
+#insta-tile {
+  background: url('../images/insta.png') no-repeat;/*wedding*/
+  background-position: center;
+}
+#face-tile {
+  background: url('../images/face.png') no-repeat;/*event*/
+  background-position: center;
+}
+
+#linked-tile {
+  background: url('../images/linked.png') no-repeat;/*festive*/
+  background-position: center;
+}
+#insta-tile span, #face-tile span, #linked-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/********** Large devices only **********/
+@media (min-width:1200px) {
+  .container .jumbotron {
+    background: url('../images/main page1.jpg') no-repeat;
+    height: 600px;
+  }
+  .container .wed-img{
+    background: url('../images/menu/wed-img1.jpg') no-repeat;/*wediing tab*/
+    height: 1800px;
+  }
+  .container .event-img{
+    background: url('../images/events/eve.jpg') no-repeat;/*wediing tab*/
+    height: 800px;
+  }
+.container .festi-img{
+    background: url('../images/festival/fmain.jpg') no-repeat;/*wediing tab*/
+    height: 900px;
+  }
+  .container .anni{
+    background: url('../images/menu/anniv2.jpg') no-repeat;/*wediing tab*/
+    height: 2000px;
+  }
+  .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+  
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo2.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/main page2.jpg') no-repeat;
+    height:561px;
+  }
+  /* End Home Page */
+  .container .wed-img{
+    background: url('../images/menu/wedimg3.jpg') no-repeat;/*wediing tab*/
+    height: 1448px;
+  }
+  .container .event-img{
+    background: url('../images/events/eve2.jpg') no-repeat;/*event tab*/
+    height:661px;
+  }
+  .container .corpimg{
+    background: url('../images/events/CORP.jpg') no-repeat;/*event tab*/
+    height:661px;
+  }
+  .container .festi-img{
+    background: url('../images/festival/fmain2.jpg') no-repeat;/*wediing tab*/
+    height: 744px;
+  }
+  .container .anni{
+    background: url('../images/menu/anniv1.jpg') no-repeat;/*wediing tab*/
+    height: 1500px;
+  }
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/main page3.jpg') no-repeat;
+    height: 411px;
+  }
+  /* End Home Page */
+  .container .wed-img{
+    background: url('../images/menu/wedimg2.jpg') no-repeat;/*wediing tab*/
+    height: 1152px;
+  }
+  .container .event-img{
+    background: url('../images/events/eve3.jpg') no-repeat;/*wediing tab*/
+    height: 511px;
+  }
+  .container .festi-img{
+    background: url('../images/festival/fmain3.jpg') no-repeat;/*wediing tab*/
+    height: 576px;
+  }
+  .container .anni{
+    background: url('../images/menu/anniv3.jpg') no-repeat;/*wediing tab*/
+    height: 1000px;
+  }
+  
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /*company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile,#map-tile ,#virtual-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}/*about start*/
+.about h1{
+  font-size: 50px; 
+  text-transform:uppercase;
+  text-align:center;
+  font-style:italic;
+  background-color:white; 
+  color:#D2691E;
+  font-weight: none;
+}
+.about h2{
+  text-align:center;
+  font-weight:none;
+  background-color:white;
+  color:#D2691E;
+  font-family: Impact, fantasy;
+}
+
+.about p{
+  text-align:center;
+  padding:30px;
+  font-style:bold italic;
+  font-size: 20px; 
+  font-family:"Times New Roman", Times, serif;
+  }
+.about li{
+  text-align:center;
+  font-size:20px;
+  
+}
+.about li:hover{
+  background-color: blue;
+
+}
+.wedding p{
+  background-image:url('../images/norm.jpg');
+}
+.corporate p{
+  background-image: url('../images/corporate.jpg');
+}
+.photo p{ 
+          background-image: url('../images/cam.jpg');
+         }
+.brand p{
+  background-image: url('../images/BRAND2.jpg')}
+  /*about end*/
+ /*gallery*/
+ 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+video {
+  width: 100%;
+  height: auto;
+  border:20px;
+}
+.form {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
